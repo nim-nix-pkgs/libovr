@@ -11,6 +11,7 @@
   inputs.src-libovr-master.ref   = "refs/heads/master";
   inputs.src-libovr-master.owner = "bluenote10";
   inputs.src-libovr-master.repo  = "nim-ovr";
+  inputs.src-libovr-master.dir   = "";
   inputs.src-libovr-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
